@@ -466,6 +466,29 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    <!-- Menta & Co. Premium Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- MENTA & CO. LUXURY BRAND OVERRIDES -->
+    <style>
+      :root {
+        --color-base-background-1: 253, 251, 247 !important; /* #FDFBF7 Krem */
+        --color-base-background-2: 244, 241, 234 !important; /* #F4F1EA Ikincil Krem */
+        --color-base-text: 42, 42, 42 !important; /* #2A2A2A Antrasit */
+        --color-base-solid-button-labels: 255, 255, 255 !important;
+        --color-base-accent-1: 143, 158, 139 !important; /* #8F9E8B Adacayi Yesili */
+        --color-base-accent-2: 197, 160, 89 !important; /* #C5A059 Mat Gold */
+        --color-base-outline-button-labels: 42, 42, 42 !important;
+        
+        --font-body-family: 'Inter', sans-serif !important;
+        --font-heading-family: 'Playfair Display', serif !important;
+        --font-heading-weight: 500 !important;
+        --font-body-weight: 300 !important;
+
+        --buttons-radius: 2px !important;
+        --inputs-radius: 2px !important;
+        --badge-corner-radius: 0px !important;
+      }
+    </style>
   </head>
 
   <body class="gradient link-btns--{{ settings.link_btn_hover }} action-btns--{{ settings.action_btn_hover }}"{% if is_rtl %} data-rtl="true"{% endif %}>
