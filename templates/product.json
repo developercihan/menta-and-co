@@ -876,7 +876,7 @@
         "display_id": false,
         "enable_sticky_info": true,
         "color_scheme": "background-1",
-        "display_variant_image_first": false,
+        "display_variant_image_first": true,
         "disable_prepend": true,
         "hide_variants": false,
         "variant_image_filtering": "none",
